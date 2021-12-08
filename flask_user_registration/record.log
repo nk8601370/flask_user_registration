@@ -1,0 +1,22 @@
+2021-12-08 16:40:57,000 INFO werkzeug MainThread :  * Running on http://127.0.0.1:3001/ (Press CTRL+C to quit)
+2021-12-08 16:40:57,002 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-08 16:40:57,296 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-08 16:40:57,297 INFO werkzeug MainThread :  * Debugger PIN: 991-847-997
+2021-12-08 16:41:42,913 INFO werkzeug Thread-2 : 127.0.0.1 - - [08/Dec/2021 16:41:42] "GET /login HTTP/1.1" 200 -
+2021-12-08 16:41:42,940 INFO werkzeug Thread-3 : 127.0.0.1 - - [08/Dec/2021 16:41:42] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2021-12-08 16:41:53,819 INFO werkzeug Thread-4 : 127.0.0.1 - - [08/Dec/2021 16:41:53] "POST /loginsuccess HTTP/1.1" 200 -
+2021-12-08 16:41:53,842 INFO werkzeug Thread-5 : 127.0.0.1 - - [08/Dec/2021 16:41:53] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2021-12-08 16:42:11,675 INFO werkzeug Thread-6 : 127.0.0.1 - - [08/Dec/2021 16:42:11] "POST /loginsuccess HTTP/1.1" 200 -
+2021-12-08 16:42:11,689 INFO werkzeug Thread-7 : 127.0.0.1 - - [08/Dec/2021 16:42:11] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2021-12-08 16:42:27,026 INFO werkzeug Thread-8 : 127.0.0.1 - - [08/Dec/2021 16:42:27] "GET /adminlogin HTTP/1.1" 200 -
+2021-12-08 16:42:27,045 INFO werkzeug Thread-9 : 127.0.0.1 - - [08/Dec/2021 16:42:27] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2021-12-08 16:42:33,727 INFO werkzeug Thread-10 : 127.0.0.1 - - [08/Dec/2021 16:42:33] "POST /aloginsuccess HTTP/1.1" 200 -
+2021-12-08 16:42:33,754 INFO werkzeug Thread-11 : 127.0.0.1 - - [08/Dec/2021 16:42:33] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+2021-12-08 16:42:55,532 INFO werkzeug Thread-12 : 127.0.0.1 - - [08/Dec/2021 16:42:55] "[31m[1mPOST /itemsuccess HTTP/1.1[0m" 401 -
+2021-12-08 16:44:11,074 INFO werkzeug MainThread :  * Detected change in '/home/i1535/Abhishek_jha/VScode/PrashantProjectFlask/flask-register-page/app.py', reloading
+2021-12-08 16:44:11,143 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-08 16:44:11,443 WARNING werkzeug MainThread :  * Debugger is active!
+2021-12-08 16:44:11,443 INFO werkzeug MainThread :  * Debugger PIN: 991-847-997
+2021-12-08 16:49:26,630 INFO werkzeug MainThread :  * Detected change in '/home/i1535/Abhishek_jha/VScode/PrashantProjectFlask/flask-register-page/app.py', reloading
+2021-12-08 16:49:26,684 INFO werkzeug MainThread :  * Restarting with stat
+2021-12-08 16:49:35,860 INFO werkzeug MainThread :  * Restarting with stat

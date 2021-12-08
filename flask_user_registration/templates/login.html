@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'login.css') }}">
+    <title>Document</title>
+</head>
+
+<body style="background :#f5c5c0; font-family: Nunito, sans-serif;">
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Login Form -->
+            <form action="/loginsuccess" method="POST">
+                <input type="text" id="login" class="fadeIn second" name="email" placeholder="email">
+                <input type="text" id="pass" class="fadeIn third" name="password" placeholder="password">
+                <input type="submit" class="fadeIn fourth" value="Log In">
+
+                <p class="mt-5 mb-3">{{ data }}</p>
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
